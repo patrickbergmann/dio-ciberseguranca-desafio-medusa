@@ -5,13 +5,13 @@ Projeto prático desenvolvido para o **Bootcamp de Cibersegurança da [DIO](http
 ---
 
 ## 📌 Sumário
-- [Arquitetura do Laboratório](#-arquitetura-do-laboratório)
+- [Arquitetura do Laboratório](#️-arquitetura-do-laboratório)
 - [Estrutura do Repositório](#-estrutura-do-repositório)
 - [Cenários Práticos Executados](#-cenários-práticos-executados)
   - [1. Força Bruta em FTP com Medusa](#1-força-bruta-em-ftp-com-medusa)
-  - [2. Autenticação Web no DVWA (Diagnóstico e Resolução com Hydra)](#2-autenticação-web-no-dvwa)
+  - [2. Autenticação Web no DVWA (Diagnóstico e Resolução com Hydra)][def]
   - [3. Enumeração e Password Spraying em SMB](#3-enumeração-e-password-spraying-em-smb)
-- [Recomendações de Mitigação](#-recomendações-de-mitigação)
+- [Recomendações de Mitigação](#️-recomendações-de-mitigação)
 - [Lições Aprendidas](#-lições-aprendidas)
 
 ---
