@@ -5,13 +5,13 @@ Projeto prático desenvolvido para o **Bootcamp de Cibersegurança da [DIO](http
 ---
 
 ## 📌 Sumário
-- [Arquitetura do Laboratório](#-arquitetura-do-laboratório)
+- [Arquitetura do Laboratório](#️-arquitetura-do-laboratório)
 - [Estrutura do Repositório](#-estrutura-do-repositório)
 - [Cenários Práticos Executados](#-cenários-práticos-executados)
   - [1. Força Bruta em FTP com Medusa](#1-força-bruta-em-ftp-com-medusa)
   - [2. Autenticação Web no DVWA (Diagnóstico e Resolução com Hydra)](#2-autenticação-web-no-dvwa)
   - [3. Enumeração e Password Spraying em SMB](#3-enumeração-e-password-spraying-em-smb)
-- [Recomendações de Mitigação](#-recomendações-de-mitigação)
+- [Recomendações de Mitigação](#️-recomendações-de-mitigação)
 - [Lições Aprendidas](#-lições-aprendidas)
 
 ---
@@ -38,6 +38,7 @@ Todos os testes foram executados em um ambiente 100% isolado através do **Virtu
 │   ├── smb_enum4linux1.png
 │   ├── smb_enum4linux2.png
 │   ├── smb_medusa_spraying.png
+│   ├── smb_medusa_spraying_2.png
 │   └── smb_validacao.png
 ├── wordlists/          # Listas didáticas utilizadas nos testes
 │   ├── users.txt
@@ -100,6 +101,7 @@ Todos os testes foram executados em um ambiente 100% isolado através do **Virtu
 <img src="./images/smb_enum4linux_1.png" alt="smb_enum4linux_1" width="600">
 <img src="./images/smb_enum4linux_2.png" alt="smb_enum4linux_2" width="600">
 <img src="./images/smb_medusa_spraying.png" alt="smb_medusa_apraying" width="600">
+<img src="./images/smb_medusa_spraying_2.png" alt="smb_medusa_apraying" width="600">
 <img src="./images/smb_validacao.png" alt="smb_validacao" width="600">
 
 ---
@@ -139,3 +141,6 @@ Todos os testes foram executados em um ambiente 100% isolado através do **Virtu
 1. **Escolha da ferramenta adequada:** Ferramentas rápidas de rede como o Medusa são excepcionais para serviços como FTP e SMB, mas formulários web modernos com controle de sessão e redirecionamentos HTTP (302) exigem ferramentas dedicadas como o Hydra.
 2. **Importância da validação manual:** Auditorias de segurança não devem se apoiar exclusivamente em saídas de ferramentas automáticas para evitar falsos positivos.
 3. **Defesa em camadas:** Nenhum mecanismo de segurança é suficiente sozinho; a proteção real depende da combinação de senhas robustas, MFA, bloqueio de tentativas e monitoramento contínuo.
+
+
+[def]: #2-autenticação-web-no-dvwa
